@@ -21,7 +21,7 @@ export default function BottomTabNavigator() {
       
       >
       <BottomTab.Screen
-        name="Inicio"
+        name="TabOne"
         component={TabOneNavigator}
         options={{
           tabBarIcon: ({ color }) => <TabBarIcon name="ios-code" color={color} />,
